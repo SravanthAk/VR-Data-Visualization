@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Data Visualisation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload the data file to visualise   </h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="fileInput" class="file-label">Choose the data file</label>
+            <input type="file" name="file" id="fileInput" class="file-input">
+            <button type="submit" class="upload-btn">Upload</button>
+        </form>
+        <div id="status" class="status"></div>
+    </div>
+
+    <script src="upload_file.js"></script>
+</body>
+</html>
